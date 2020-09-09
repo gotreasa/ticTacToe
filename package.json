@@ -1,0 +1,27 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe Kata",
+  "main": "ticTacToe.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gotreasa/ticTacToe.git"
+  },
+  "author": "Gearoid O'Treasaigh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gotreasa/ticTacToe/issues"
+  },
+  "homepage": "https://github.com/gotreasa/ticTacToe#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^24.0.0",
+    "jest": "^26.4.2"
+  }
+}
