@@ -19,9 +19,9 @@ TODO:
 # Notes
 
 ## Pomodoro 1: Define the problem for readability and implement first scenario - empty grid  
-🚧 Put together the details of the problem  
+✅ Put together the details of the problem  
 🚧 Write the test for an empty grid  
-🚧 Implement the initialisation of the grid  
+TODO: Implement the initialisation of the grid  
 
 ### Problem details  
 * The game is played on a grid that's 3 squares by 3 squares.  
