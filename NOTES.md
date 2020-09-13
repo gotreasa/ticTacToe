@@ -28,8 +28,8 @@ TODO:
 
 ## Backlog
 ✅ Define a function to decide the order each square is chosen  
-🚧 Fill out X and O in the squares according to the order  
-TODO: Print the grid with the X and Os  
+✅ Fill out X and O in the squares according to the order  
+🚧 Print the grid with the X and Os  
 TODO: Add the iterations for each players go with 2 second timeout
 TODO: Add the determination of when a user has won and the game can stop
 TODO: Add the determination when the game is a draw 
@@ -40,10 +40,15 @@ TODO: Add the determination when the game is a draw
 ✅ Implement the initialisation of the grid  
 
 ## Pomodoro 2: 
-✅ write a test for the order each square is filled
-✅ implement the function for the order for filling the squares
-🚧 write a test to specify the array with the Xs and Os
-TODO: implement the array with the Xs and Os being filled 
+✅ write a test for the order each square is filled  
+✅ implement the function for the order for filling the squares  
+✅ write a test to specify the array with the Xs and Os  
+❌ implement the array with the Xs and Os being filled  
+
+## Pomodoro 3
+✅ implement the array with the Xs and Os being filled  
+🚧 write test for printing the grid  
+TODO: implement the print of the grid  
 
 
 

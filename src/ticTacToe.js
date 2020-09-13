@@ -3,6 +3,14 @@ class Game {
     this.order = order;
   }
 
+  fillSquares() {
+    this.squares = new Array(9);
+    this.order.forEach((value, index) => {
+      this.squares[value] = index % 2 === 0 ? 'X' : 'O';
+    });
+    return this.squares;
+  }
+
   print() {
     return `Game Board Creation…
 | |

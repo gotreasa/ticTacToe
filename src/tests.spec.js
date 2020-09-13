@@ -9,9 +9,15 @@ describe('The game is played on a grid that is 3 squares by 3 squares', () => {
   });
 });
 describe('The order of the squares filled is predetermined', () => {
-  it('the order can be passed in', () => {
+  test('the order can be passed in', () => {
     const game = new Game();
     game.setOrder([8, 7, 5, 6, 0, 1, 2, 4, 3]);
     expect(game.order).toEqual([8, 7, 5, 6, 0, 1, 2, 4, 3]);
+  });
+  test('the Xs and Os are filled in according to the order', () => {
+    const game = new Game();
+    game.setOrder([8, 7, 5, 6, 0, 1, 2, 4, 3]);
+    game.fillSquares();
+    expect(game.squares).toEqual(['X', 'O', 'X', 'X', 'O', 'X', 'O', 'O', 'X']);
   });
 });
