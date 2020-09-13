@@ -27,10 +27,17 @@ ${this.squares[6]}|${this.squares[7]}|${this.squares[8]}`;
 ${this.getGrid()}
 Board Created.
 The game will start with player X`;
+    // for (let i = 0; i < 0; i += 1) {
 
+    // }
+    console.log(this.output);
     return this.output;
   }
 }
+const game = new Game();
+game.setOrder([8, 7, 5, 6, 0, 1, 2, 4, 3]);
+// game.fillSquares();
+game.print();
 
 module.exports = {
   Game,
