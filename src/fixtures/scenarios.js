@@ -1,6 +1,4 @@
-class Game {
-  print() {
-    return `Game Board Creation…
+const INITIAL_GRID = `Game Board Creation…
 | |
 -+-+-
 | |
@@ -8,8 +6,6 @@ class Game {
 | |
 Board Created.
 The game will start with player X`;
-  }
-}
 module.exports = {
-  Game,
+  INITIAL_GRID,
 };
