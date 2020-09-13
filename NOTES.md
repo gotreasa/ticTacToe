@@ -31,7 +31,7 @@ TODO:
 ✅ Fill out X and O in the squares according to the order  
 🚧 Print the grid with the X and Os  
 TODO: Add the iterations for each players go with 2 second timeout
-TODO: Add the determination of when a user has won and the game can stop
+TODO: Add the determination of when a user has won and the game can stop  
 TODO: Add the determination when the game is a draw 
 
 ## Pomodoro 1: Define the problem for readability and implement first scenario - empty grid  
@@ -52,6 +52,6 @@ TODO: Add the determination when the game is a draw
 
 ## Pomodoro 4
 🚧 implement the print of the grid  
-TODO: test the continuous run of the gam
+TODO: test the continuous run of the game  
 TODO: implement the continuous run with 2 second separator 
 
