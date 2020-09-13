@@ -18,15 +18,32 @@ TODO:
 
 # Notes
 
-## Pomodoro 1: Define the problem for readability and implement first scenario - empty grid  
-✅ Put together the details of the problem  
-🚧 Write the test for an empty grid  
-TODO: Implement the initialisation of the grid  
-
 ### Problem details  
 * The game is played on a grid that's 3 squares by 3 squares.  
 * The first player, is designated "X".  
 * The second player, is designated "O".  
 * Players take turns putting their marks in empty squares.  
 * In order to win the game, a player must place three of their marks in a horizontal, vertical, or diagonal row.  
-* When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a draw.
+* When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a draw.  
+
+## Backlog
+✅ Define a function to decide the order each square is chosen  
+🚧 Fill out X and O in the squares according to the order  
+TODO: Print the grid with the X and Os  
+TODO: Add the iterations for each players go with 2 second timeout
+TODO: Add the determination of when a user has won and the game can stop
+TODO: Add the determination when the game is a draw 
+
+## Pomodoro 1: Define the problem for readability and implement first scenario - empty grid  
+✅ Put together the details of the problem  
+✅ Write the test for an empty grid  
+✅ Implement the initialisation of the grid  
+
+## Pomodoro 2: 
+✅ write a test for the order each square is filled
+✅ implement the function for the order for filling the squares
+🚧 write a test to specify the array with the Xs and Os
+TODO: implement the array with the Xs and Os being filled 
+
+
+

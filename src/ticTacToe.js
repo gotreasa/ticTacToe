@@ -1,4 +1,8 @@
 class Game {
+  setOrder(order) {
+    this.order = order;
+  }
+
   print() {
     return `Game Board Creation…
 | |
