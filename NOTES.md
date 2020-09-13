@@ -48,7 +48,10 @@ TODO: Add the determination when the game is a draw
 ## Pomodoro 3
 ✅ implement the array with the Xs and Os being filled  
 ✅ write test for printing the grid  
-TODO: implement the print of the grid  
+❌ implement the print of the grid  
 
-
+## Pomodoro 4
+🚧 implement the print of the grid  
+TODO: test the continuous run of the gam
+TODO: implement the continuous run with 2 second separator 
 
