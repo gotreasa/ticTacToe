@@ -1,4 +1,4 @@
-**Labels** 
+**Labels**  
 ✅ done  
 🚧 WIP  
 ❌ ERROR  
