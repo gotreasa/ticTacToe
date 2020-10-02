@@ -1,8 +1,8 @@
 **Labels** 
-✅ done 
-🚧 WIP 
-❌ ERROR 
-TODO:
+✅ done  
+🚧 WIP  
+❌ ERROR  
+TODO:  
 
 ## Grading criteria
 * the kata has to be done in solo mode.  
